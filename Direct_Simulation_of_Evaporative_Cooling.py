@@ -53,12 +53,6 @@ class evap_cool_sim:
                 Array of temperature (assuming distribution is Gaussian) at every time step.
             dt : float
                 Time step per step in units of (1/omega_HO).
-        
-        Methods
-        -------
-            initial_distribution():
-                Create a distribution of velocities and particles randomly distributed
-                across real and velocity space.
     """
     def __init__(self, omega_x, omega_y, omega_z):
         """
